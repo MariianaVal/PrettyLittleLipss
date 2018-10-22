@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Dancing+Script|Srisakdi');
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+body{
+  background-color: #eee;
+  font-family: 'Charmonman', cursive;
+  overflow : hidden; overflow-y : scroll;
+  overflow : -moz-scrollbars-vertica;
+  background-color: white;
+}
+
+header{
+
+  background-color:black;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Dancing Script', cursive;
+}
+
+header > h1 {
+  color: white;
+  width: 20%;
+  margin-left: 4%;
+  float: left;
+  line-height: 2;
+}
+header > nav{
+  width: 40%;
+  margin-left: 34%;
+  display: inline-block;
+}
+header > nav > ul > li {
+  width: 20%;
+  display: inline-block;
+  margin-left: -4px;
+  list-style: none;
+  line-height: 3;
+  text-align: center;
+}
+header > nav > ul > li> a{
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+section{
+  min-height: 500px;
+}
+section#inicio{
+  height: 90vh;
+  background-color: black;
+  background-image: url(../img/fondo1.jpg);
+  background-size: 100% 100%;
+  padding-top: 70px;
+}
+section#inicio > h2{
+  text-align: right;
+  padding-right: 200px;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 200px;
+  float: right;
+  width: 100%;
+  text-shadow: 1px 0px 10px rgba(255, 255, 255, 1);
+
+}
+section#inicio > h3 {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+}
+section#inicio> a.comprar{
+  color: white;
+  font-size: 1.3rem;
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+  border: 2px solid white;
+  text-align: center;
+  margin: 0 auto; /*Centrar caja en automático*/
+  padding: 3px;
+}
+section#inicio> a:last-child{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 50px;
+  color: white;
+  font-size: 3rem;
+
+}
+.producto{
+  width: 20%;
+  margin-left: 4%;
+  border: 1px solid #ccc;
+  /*background-color: white;*/
+  min-height: 250px;
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+  overflow: hidden;
+
+}
+.producto > img {
+  width: 90%;
+  height: 150px;
+  margin-top: 10px;
+}
+.producto > h3, .producto > p{
+  text-align:center;
+}
+.producto > a{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  line-height: 3;
+  width: 150px;
+  height: 50px;
+}
+.producto > .anim{
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  margin-top: -250px;
+  height: 250px;
+
+}
+
+section#ofertas{
+ /*background-image: url(../img/ofertas.jpg);
+  background-size: 100% auto;*/
+
+  text-align: center;
+  line-height: 3;
+
+  height: 300px;
+  min-height: 300px;
+
+}
+section#ofertas h3{
+  color: white;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 50px;
+  padding-top: 100px;
+
+}
+section#contacto .formulario{
+width: 50%;
+float: left;
+}
+section#contacto .mapa{
+padding-top: 20px;
+ margin: 70px;
+width: 30%;
+float: left;
+}
+section#contacto .formulario form{
+  padding: 10px;
+}
+section#contacto .formulario form h3{
+    margin: 35px;
+  font-size: 2rem;
+  padding: 10px;
+  line-height: 1;
+
+
+}
+section#contacto .formulario form fieldset{
+  margin-top: 10px;
+  margin: 40px;
+  border: none;
+
+}
+section#contacto .formulario form fieldset label{
+  display: block;
+  width: 100%;
+}
+
+section#contacto .formulario form fieldset input[type="text"],
+section#contacto .formulario form fieldset textarea{
+  display: block;
+  width: 80%;
+  border: 1 px solid black;
+  /*border: none*/
+  background-color: white;
+  color: #C0A9A6;
+  outline-color: black;
+  height: 30px;
+}
+section#contacto .formulario form fieldset textarea{
+  height: 20px;
+  resize: none;
+}
+section#contacto .formulario form fieldset input[type="submit"]{
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 30px;
+  border: none;
+}
+section{
+    min-height: 400px;
+}
+
+section#productos >h1{
+     padding: 10px;
+    text-align: center;
+    line-height: 4;
+    width: 175px;
+    height: 50px;
+}
+
+
+section#novedades >h1{
+
+    padding: 10px;
+    text-align: center;
+    line-height: 3;
+    width: 260px;
+    height: 50px;
+}
+section#conocenos {
+  padding: 50px;
+    font-size: small;
+    text-decoration: underline white;
+   margin-top: 200px;
+background-color: #1C1C1C;
+text-align: left;
+line-height: 3;
+height: 200px;
+min-height: 250px;
+}
+section#conocenos >table  {
+  margin-top: 300px;
+text-align: center;
+line-height: 3;
+height: 300px;
+min-height: 300px;
+}
+
+.fab, .fa {
+  width: 40px;
+  font-size: 2em;
+
+}
